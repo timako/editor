@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/timako/linux/editor'
+g++ -o editor myEditor.cpp -Wall -W;
+make: Leaving directory '/home/timako/linux/editor'
+ 

@@ -1,3 +1,4 @@
-kilo: kilo.c
-	$(CC) kilo.c -o kilo -Wall -Wextra -pedantic -std=c99
-	
+all: editor
+
+editor: myEditor.cpp
+	g++ -o editor myEditor.cpp -Wall -W;
